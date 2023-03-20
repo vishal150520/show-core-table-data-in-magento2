@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Bluethink_CustomMenu::parent" title="Customer Data" module="Bluethink_CustomMenu" sortOrder="51" resource="Bluethink_CustomMenu::helloworld"/>
+        <add id="Bluethink_CustomMenu::reviews" title="Customer Data" module="Bluethink_CustomMenu" sortOrder="10" action="menu/post" resource="Bluethink_CustomMenu::reviews" parent="Bluethink_CustomMenu::parent"/>
+    </menu>
+</config>
